@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ------------- Nav Bar ----------------- */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+/* .logo{
+    background-color: blanchedalmond;
+} */
+.resume-btn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 70px;
+    height: 30px;
+}
+.options{
+    width: 50%;
+}
+.options > ul{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+}
+
+/* ------------- Nav Bar ----------------- */
+
+
+/* ------------- carosel ----------------- */
+
+.carosel{
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-left: 50px;
+    background-image: url('./asserts/man1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 450px;
+}
+
+.carosel .carosel-content{
+    padding-top: 50px;
+}
+
+.carosel .carosel-content .main-content{
+    font-size: x-large;
+}
+
+.carosel .carosel-content .sub-content{
+    font-size: small;
+    padding-top: 20px;
+    text-align: justify;
+    width: 40%;
+}
+
+.carosel .carosel-content .main-content{
+    font-size: x-large;
+}
+
+.carosel .carosel-content .share-link > ul{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.carosel .carosel-content .share-link{
+    padding-top: 30px;
+}
+
+.carosel ul li{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+/* ------------- carosel ----------------- */
+
+
+/* ------------- My skill ----------------- */
+
+.my-skill{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.my-skill h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.my-skill .skill-content-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.my-skill .skill-content-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my-skill .small-card{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.my-skill .small-card h4{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.my-skill .small-card .card-img{
+    display: flex;
+    justify-content: center;
+}
+
+.my-skill .small-card img{
+    height: 70px;
+}
+
+/* ------------- My skill ----------------- */
+
+
+
+/* ------------- My Experience ----------------- */
+
+.experience{
+    padding-top: 70px;
+    background-color: black;
+    padding-bottom: 90px;
+}
+
+.experience .title h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.experience .company-box{
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+    color: white;
+    border: 0.1pt solid white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.experience .company-box .company{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.experience .company-box .company-title{
+    display: flex;
+    justify-content: center;
+}
+
+.experience .company-box .company-title .name{
+    margin-left: 30px;
+}
+
+.experience .company-box .timeperiod{
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience .company-box .summary{
+    margin-top: 20px;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.experience .company-box:hover{
+    border: none;
+    background-color: gray;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    border: 0.1pt solid gray;
+}
+
+/* ------------- My Experience ----------------- */
+
+
+/* ------------- About Me ----------------- */
+
+.about-me{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-me .about-box{
+    display: flex;
+}
+
+.about-me .about-box .about-img{
+    width: 500px;
+}
+
+.about-me .about-box img{
+    width: 500px;
+}
+
+.about-me .about-content{
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+.about-me .about-content h1{
+    /* text-align: center; */
+    font-size: 40px;
+}
+
+.about-me .about-content .about-summery{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.about-me .about-content .about-summery .summery-content{
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+/* ------------- About Me ----------------- */
